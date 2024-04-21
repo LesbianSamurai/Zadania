@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.baner {
+    display: flex;
+    background-color: #483D8B;
+    height: 150px;
+}
+
+.baner div {
+    width: 30%;
+}
+
+.baner div:nth-child(2) {
+    background-color: #483D8B;
+    color: white;
+    width: 70%;
+}
+
+.glowny {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dzien {
+    background-color: #AFEEEE;
+    width: 150px;
+    height: 100px;
+    margin: 3px;
+    border: 1px solid #000;
+}
+
+footer {
+    background-color: #483D8B;
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}

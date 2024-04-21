@@ -1,0 +1,44 @@
+body {
+    font-family: Verdana, sans-serif;
+}
+
+.miniatura {
+    background-color: Sienna;
+    height: 100px;
+    width: 20%;
+}
+
+.tytulowy {
+    background-color: Sienna;
+    color: orange;
+    height: 100px;
+    width: 80%;
+}
+
+.lewy {
+    background-color: BurlyWood;
+    height: 700px;
+    width: 70%;
+}
+
+.prawy {
+    background-color: BurlyWood;
+    height: 700px;
+    width: 30%;
+}
+
+.stopka {
+    background-color: Sienna;
+    color: orange;
+    text-align: center;
+}
+
+.miniatura img {
+    margin: 7px;
+    padding: 5px;
+    border: 1px dashed RosyBrown;
+}
+
+.miniatura img:hover {
+    border-color: Maroon;
+}
